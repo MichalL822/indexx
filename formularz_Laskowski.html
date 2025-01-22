@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+  <html lang="pl-PL">
+   <html>
+     <head>
+      <meta charset="utf-8">
+       <title>formularz</title>
+   </head>
+<body>
+<A HREF="formularz_Laskowski.html"> Tutaj będzie formularz </A> 
+<br>
+<A HREF="index.html"> Wróć </A> <br>
+ </body>
+</html>
+
+
+<body>
+    <form>
+        <table border="1">
+            <tr>
+                <td width="400">
+                    <center>
+                        <font size="6" color="blue"><b>Czy uprawiasz jakiś z wymienionych sportów?</b></font>
+                    </center>
+                    <br>
+                    <center>
+                        <select>
+                            <option value="autobus">Piłka nożna</option>
+                            <option value="motocykl">Siatkówka</option>
+                            <option value="prom">Piłka ręczna</option>
+                            <option value="samolot">Hokej</option>
+                            <option value="lodz">Koszykówka</option>
+                        </select>
+                    </center>
+                </td>
+                <td width="500" style="text-align: right;">
+                    <center>
+                        Jakie jest twoje ulubione zwierzę?
+                        <br><br>
+                        <input type="checkbox" name="zwierze" value="k"> Pies
+                        <br><br>
+                        <input type="checkbox" name="zwierze" value="m"> Kot
+                        <br><br>
+                        <input type="checkbox" name="zwierze" value="l"> Koń
+                        <br><br>
+
+                        <input type="checkbox" name="zwierze" value="inna"> Inne
+                        <br><br><br>
+                        <nobr>Jeśli wybrałeś Inne, to podaj swoje ulubione zwierzę poniżej.<br>Wpisz zwierzę. MAKS:50 słów.</nobr>
+                        <br><br>
+                        <input name="Inna" size="40" maxlength="50">
+                    </center>
+                </td>
+            </tr>
+            <tr height="260">
+                <td colspan="2">
+                    <center>
+                        <nobr>Czy uprawiasz jakiś sport?</nobr>
+                        <br><br>
+                        <input type="radio" name="pyt1" value="tak"> Tak
+                        <br><br>
+                        <input type="radio" name="pyt1" value="nie"> Nie
+                        <br><br>
+                        <input type="radio" name="pyt1" value="rzadko"> Rzadko
+                        <br><br>
+                        <b>Gdybyś mógł mieć supermoc jaka by to była, uzasadnij krótko swoją odpowiedź:</b>
+                        <br>
+                        <textarea cols="50" rows="4"></textarea>
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <center>
+                        Wpisz godzinę: <input type="time"><br>
+                        Wpisz datę: <input type="date"><br>
+                        Wybierz kolor: <input type="color"><br>
+                    </center>
+                </td>
+                <td>
+                    <center>
+                        Jaka jest temperatura: <input type="range"><br>
+                        Ładowanie... <progress>Ładowanie...</progress>
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <center>
+                        <button onclick="alert('Gratulacje odkryłeś nieznane terytorium')" style="height:60px;width:280px">
+                            Nieznane
+                        </button>
+                    </center>
+                </td>
+                <td>
+                    <center>
+                        <input type="reset" value="Reset" style="height:60px; width:280px">
+                    </center>
+                </td>
+                <td>
+                    <center>
+                        <input type="submit" value="Wyślij formularz" style="height:80px; width:150px">
+                    </center>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
